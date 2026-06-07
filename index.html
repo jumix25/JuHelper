@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JuHelper ist dein smarter Technik-Assistent für PC-Diagnose, Software, Support und System-Checks.">
+  <title>JuHelper | Dein smarter Technik-Assistent</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Hauptnavigation">
+      <a class="brand" href="#top" aria-label="JuHelper Startseite">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>JuHelper</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Menü öffnen</span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#features">Features</a><a href="#ablauf">So funktioniert's</a><a href="#download">Download</a><a class="nav-cta" href="#demo">Demo starten</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div><div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="live-dot"></span>Eine Software von JuGroup</div>
+          <h1>Technik. Einfach.<br><span>JuHelper.</span></h1>
+          <p class="hero-subtitle">Dein smarter Technik-Assistent von JuGroup. Erkennt Probleme, findet Lösungen und bringt dein System wieder auf Kurs.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#demo">Demo starten <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#features">Mehr erfahren</a>
+          </div>
+          <div class="hero-meta" aria-label="Produkteigenschaften"><span>Einfach</span><span>Sicher</span><span>Schnell</span></div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Animierte JuHelper Systemübersicht">
+          <div class="app-window">
+            <div class="window-bar">
+              <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <span class="window-title">JuHelper / Übersicht</span><span class="window-status">ONLINE</span>
+            </div>
+            <div class="window-body">
+              <aside class="mock-sidebar" aria-hidden="true"><div class="sidebar-logo">J</div><span class="active"></span><span></span><span></span><span></span></aside>
+              <div class="mock-content">
+                <div class="system-heading">
+                  <div><small>SYSTEMSTATUS</small><strong>Alles im Blick.</strong></div>
+                  <div class="health-score"><span>98</span><small>/ 100</small></div>
+                </div>
+                <div class="status-display">
+                  <div class="scan-orbit" aria-hidden="true"><div class="scan-core">J</div><span class="orbit-dot"></span></div>
+                  <div class="status-copy"><span class="status-label">LIVE-ANALYSE</span><strong id="hero-status">System wird geprüft…</strong><div class="mini-progress"><span id="hero-progress"></span></div></div>
+                </div>
+                <div class="metric-grid">
+                  <div class="metric-card"><span>CPU</span><strong>24%</strong><div class="metric-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
+                  <div class="metric-card"><span>SPEICHER</span><strong>5.8 GB</strong><div class="metric-line" aria-hidden="true"></div></div>
+                  <div class="metric-card wide"><div><span>SICHERHEIT</span><strong>Geschützt</strong></div><div class="check-icon" aria-hidden="true">✓</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-chip chip-top" aria-hidden="true"><span>✓</span><div><small>STATUS</small><strong>System bereit</strong></div></div>
+          <div class="floating-chip chip-bottom" aria-hidden="true"><span>↓</span><div><small>UPDATES</small><strong>Alles aktuell</strong></div></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#features" aria-label="Zu den Features scrollen"><span></span></a>
+    </section>
+
+    <section class="section section-bordered" id="features">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="section-index">01 / FEATURES</span><h2>Ein Assistent.<br>Viele Lösungen.</h2></div>
+          <p>Vom schnellen System-Check bis zum direkten Support: JuHelper bündelt alles, was du für einen entspannten Technik-Alltag brauchst.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 17V5h16v12H4Zm-2 3h20M9 17v3m6-3v3M8 10h2l1.3-3 2.1 7 1.4-4H18"/></svg></div><span class="card-number">01</span><h3>PC-Diagnose</h3><p>Hardware, Leistung und mögliche Fehler automatisch analysieren.</p><div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg></div><span class="card-number">02</span><h3>Software-Installer</h3><p>Wichtige Programme einfach auswählen und sauber installieren.</p><div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-2v-6h4M4 13h4v6H6a2 2 0 0 1-2-2v-5Zm12 6c0 1.1-.9 2-2 2h-2"/></svg></div><span class="card-number">03</span><h3>Support-Modus</h3><p>Schnelle Hilfe durch verständliche Schritte oder direkten Support.</p><div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 8h8a5 5 0 0 1 4.7 6.7l-1 3A2 2 0 0 1 16.4 19L14 17H10l-2.4 2a2 2 0 0 1-3.3-1.3l-1-3A5 5 0 0 1 8 8Zm-1 4v4m-2-2h4m7-.5h.01M18 15.5h.01M9 8l1-3h4l1 3"/></svg></div><span class="card-number">04</span><h3>Gaming Mode</h3><p>Ressourcen optimieren und störende Hintergrundprozesse reduzieren.</p><div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M16 20v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm10 1v6m-3-3h6"/></svg></div><span class="card-number">05</span><h3>Kundenverwaltung</h3><p>Support-Fälle und Kundendaten künftig übersichtlich verwalten.</p><span class="coming-label">BALD</span><div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg></div><span class="card-number">06</span><h3>System-Check</h3><p>Updates, Sicherheit und Systemzustand in Sekunden überprüfen.</p><div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="ablauf">
+      <div class="container">
+        <div class="section-heading reveal"><div><span class="section-index">02 / ABLAUF</span><h2>So einfach<br>funktioniert's.</h2></div><p>Drei klare Schritte. Kein technisches Vorwissen. JuHelper führt dich verständlich vom Problem bis zur passenden Lösung.</p></div>
+        <div class="process-line" aria-hidden="true"><span></span></div>
+        <div class="process-grid">
+          <article class="process-step reveal"><span class="step-number">01</span><div class="step-icon"><span>J</span></div><h3>JuHelper starten</h3><p>Öffne die Anwendung. JuHelper prüft direkt, ob dein System bereit ist.</p></article>
+          <article class="process-step reveal"><span class="step-number">02</span><div class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h10M4 19h7"/><circle cx="18" cy="12" r="2.5"/></svg></div><h3>Problem auswählen</h3><p>Wähle dein Anliegen aus oder starte eine automatische Diagnose.</p></article>
+          <article class="process-step reveal"><span class="step-number">03</span><div class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></div><h3>Lösung erhalten</h3><p>Folge der Lösung Schritt für Schritt oder verbinde dich mit dem Support.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demo">
+      <div class="container demo-grid">
+        <div class="demo-copy reveal"><span class="section-index">03 / LIVE-DEMO</span><h2>Bereit für einen<br>kleinen Check?</h2><p>Starte die Demo und sieh dir an, wie JuHelper dein System analysiert. Keine Sorge: Dies ist nur eine Simulation.</p><ul class="demo-points"><li><span>✓</span> Keine Installation nötig</li><li><span>✓</span> Keine echten Systemdaten</li><li><span>✓</span> In wenigen Sekunden fertig</li></ul></div>
+        <div class="diagnostic-panel reveal">
+          <div class="panel-header"><div><span class="panel-dot"></span><strong>JuHelper Diagnose</strong></div><span id="demo-state">BEREIT</span></div>
+          <div class="diagnostic-body">
+            <div class="diagnostic-ring" id="diagnostic-ring"><svg viewBox="0 0 160 160" aria-hidden="true"><circle class="ring-bg" cx="80" cy="80" r="68"></circle><circle class="ring-progress" id="ring-progress" cx="80" cy="80" r="68"></circle></svg><div class="ring-content"><strong id="scan-percentage">0%</strong><span>ANALYSE</span></div></div>
+            <div class="diagnostic-status"><span>AKTUELLER STATUS</span><strong id="scan-status" aria-live="polite">Bereit für den System-Check</strong></div>
+            <div class="scan-items">
+              <div class="scan-item" data-scan-item><span class="scan-icon">01</span><div><strong>Hardware</strong><small>CPU, RAM & Speicher</small></div><span class="item-state">WARTET</span></div>
+              <div class="scan-item" data-scan-item><span class="scan-icon">02</span><div><strong>Software</strong><small>Updates & Programme</small></div><span class="item-state">WARTET</span></div>
+              <div class="scan-item" data-scan-item><span class="scan-icon">03</span><div><strong>Sicherheit</strong><small>Schutz & Einstellungen</small></div><span class="item-state">WARTET</span></div>
+            </div>
+            <button class="button button-primary scan-button" id="scan-button" type="button"><span class="button-text">Scan starten</span><span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section download-section" id="download">
+      <div class="download-glow" aria-hidden="true"></div>
+      <div class="container download-content reveal"><span class="section-index">04 / DOWNLOAD</span><div class="download-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 21h16"/></svg></div><h2>Dein Technik-Assistent.<br><span>Bald verfügbar.</span></h2><p>JuHelper befindet sich aktuell in Entwicklung. Wir arbeiten daran, dir schon bald eine zuverlässige und einfache Lösung bereitzustellen.</p><button class="button button-disabled" type="button" disabled><span class="pulse-dot"></span>Coming soon</button><small>FÜR WINDOWS · RELEASE IN VORBEREITUNG</small></div>
+    </section>
+
+    <section class="jugroup-section"><div class="container"><div class="jugroup-card reveal"><div class="jugroup-mark" aria-hidden="true">JG</div><div><span class="section-index">EIN PRODUKT VON</span><h2>JuGroup</h2><p>JuHelper ist ein Produkt von JuGroup. Wir entwickeln digitale Lösungen, die Technik einfacher und zugänglicher machen.</p></div><a class="button button-secondary" href="https://jugroup.de" target="_blank" rel="noopener noreferrer">JuGroup Website <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span></span><span>JuHelper</span></a><p>Technik verstehen. Probleme lösen.</p><nav aria-label="Rechtliche Navigation"><a href="https://jugroup.de" target="_blank" rel="noopener noreferrer">JuGroup</a><a href="#datenschutz">Datenschutz</a><a href="#impressum">Impressum</a><a href="mailto:kontakt@jugroup.de">Kontakt</a></nav></div>
+    <div class="container footer-bottom"><span>© <span id="current-year"></span> JuGroup. Alle Rechte vorbehalten.</span><span>Made with precision in Germany.</span></div>
+  </footer>
+</body>
+</html>
