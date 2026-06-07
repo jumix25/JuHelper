@@ -39,25 +39,13 @@ JuGroup entwickelt Software, Tools und digitale Lösungen für Privatpersonen un
 - KI-Unterstützung
 - Kundenportal-Anbindung
 - Automatische Problemerkennung
-
-## 💻 Installation
-
-```bash
-git clone https://github.com/jumix25/JuHelper.git
-```
-
 ## 📄 Lizenz
-
-Copyright © 2026 JuGroup
-
-Alle Rechte vorbehalten.
-Eine Nutzung, Veränderung oder Weiterverbreitung ist ohne Genehmigung nicht gestattet.
 
 ## 📞 Kontakt
 
 JuGroup
 
-Website: https://jugroup.tech
+Website: https://jumix25.github.io/JuGroup
 
 GitHub: https://github.com/jumix25
 
